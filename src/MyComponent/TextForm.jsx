@@ -38,7 +38,8 @@ function TextForm(props) {
       }
       
     return (
-        <div className="container my-5" style={{ color: props.mode === "dark" ? "white" : "black" }} >
+        <div className="container my-5" style={{ color: props.mode === "dark" ? "white" : "black"
+         }} >
         <h1 >{props.heading}</h1>
         <div className="form-floating">
           <textarea
@@ -69,7 +70,7 @@ function TextForm(props) {
           Remove Spaces
         </button>
   
-        <div className="container" >
+        <div className="container"  >
           <h3>Your text Summary</h3>
           <p>
             {text.split(" ").length-1} Words {text.length} Characters
